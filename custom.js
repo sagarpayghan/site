@@ -34,6 +34,9 @@ function fetchValues() {
         method:'GET',
         dataType:'json',
         success: function(data){
+            data.forEach(function(item){
+                $('#data-table tbody td')
+            })
 
         },
         error: function(error){
